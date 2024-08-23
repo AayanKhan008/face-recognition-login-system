@@ -1,4 +1,3 @@
-#! C:\Users\PRAFULLA\AppData\Local\Programs\Python\Python39\python.exe
 import cgi
 from base64 import b64decode
 import face_recognition
@@ -36,4 +35,3 @@ if(face_match==1):
     print("<script>alert('welcome ",email," ')</script>")
 else:
     print("<script>alert('face not recognized')</script>")
-
